@@ -101,3 +101,24 @@ throw new \Exception(
     )
 );
 ```
+
+## Custom glue strings
+
+Starting version 2, you can customize the string that is used to join the lines together by calling the `withGlue(...)`, `withNewLine()` or `withSpace()` methods on the `MLString` instance:
+```php
+use MLString\MLString;
+
+$mlString = MLString::of(
+    "This is a long string",
+    "that spans multiple lines",
+    "and uses MLString to be readable.",
+);
+echo $mlString->withGlue(' | ');
+// Outputs: "This is a long string | that spans multiple lines | and uses MLString to be readable."
+
+echp $mlString->withSpace();
+// Outputs: "This is a long string that spans multiple lines and uses MLString to be readable."
+
+echo $mlString->withNewLine();
+// Outputs the original string with new lines
+```
