@@ -1,0 +1,23 @@
+{
+    "name": "zoliszabo/php-mlstring",
+    "description": "A pretty simple multiline strings library",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MLString\\": "src/"
+        },
+	    "files": [
+		    "src/functions.php"
+	    ]
+    },
+    "authors": [
+        {
+            "name": "Zoli Szabó",
+            "email": "zoli.szabo+github@gmail.com"
+        }
+    ]
+}
