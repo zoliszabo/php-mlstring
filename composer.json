@@ -3,7 +3,7 @@
     "description": "A pretty simple multiline strings library",
     "type": "library",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.3"
     },
     "license": "MIT",
     "autoload": {
