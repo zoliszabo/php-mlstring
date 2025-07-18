@@ -14,10 +14,16 @@
 		    "src/functions.php"
 	    ]
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "authors": [
         {
             "name": "Zoli Szabó",
             "email": "zoli.szabo+github@gmail.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
 }
