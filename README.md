@@ -2,7 +2,7 @@
 
 A pretty simple multi-line strings library.
 
-**Are you tired of using:**
+❓ **Are you tired of using:**
 * long (loooooooong) strings with `\n` and `\r\n`?
 * concatenation to make your strings readable?
 * heredoc syntax with its crazy indentation rules?
@@ -30,7 +30,7 @@ EOD;
 👍 You can use this:
 
 ```php
-MLString(
+$longString = MLString(
     "This is a long string",
     "that spans multiple lines",
     "and uses MLString to be readable."
